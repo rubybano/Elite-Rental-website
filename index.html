@@ -111,7 +111,7 @@
             /* KEY CHANGE 1: Use full viewport height for dramatic effect */
             height: 100vh;
             
-            background-image: url('Images/hero.png'); /* Replace with your actual hero image URL */
+            background-image: url('hero.png'); /* Replace with your actual hero image URL */
             
             /* KEY CHANGE 2: Implement Parallax Effect */
             background-attachment: fixed;
@@ -220,16 +220,16 @@
         // --- Data Definitions ---
         // ⭐ IMPORTANT: Added 'imageURL' property to each object
         const equipmentData = [
-            { id: 1, name: "Hydraulic Excavator (20T)", category: "Earthmoving", price: 550.00, description: "Precision digging and major site preparation. Max depth 20ft, 10-ton capacity.", details: "Our 20-ton class excavator is perfect for large residential and commercial projects. Features cab A/C, quick coupler, and standard safety monitoring systems.", placeholder: "Excavator", imageURL: "Images/evacuator.png" },
-            { id: 3, name: "Skid Steer Loader", category: "Earthmoving", price: 320.00, description: "Compact and versatile for tight spaces. Rated operating capacity 1,750 lbs.", details: "This powerful skid steer offers exceptional lift capacity and maneuverability. Ideal for demolition, grading, and material handling. High-flow hydraulics standard.", placeholder: "Skid Steer", imageURL: "Images/skid_steer.png" },
-            { id: 6, name: "Trench Digger (Walk-Behind)", category: "Earthmoving", price: 210.00, description: "Creates clean trenches quickly for utilities and irrigation lines. Adjustable depth up to 36 inches.", details: "A self-propelled trenching machine designed for speed and precision. Ideal for installing irrigation lines, electrical conduit, or plumbing.", placeholder: "Digger", imageURL: "Images/trench copy.png" },
+            { id: 1, name: "Hydraulic Excavator (20T)", category: "Earthmoving", price: 550.00, description: "Precision digging and major site preparation. Max depth 20ft, 10-ton capacity.", details: "Our 20-ton class excavator is perfect for large residential and commercial projects. Features cab A/C, quick coupler, and standard safety monitoring systems.", placeholder: "Excavator", imageURL: "evacuator.png" },
+            { id: 3, name: "Skid Steer Loader", category: "Earthmoving", price: 320.00, description: "Compact and versatile for tight spaces. Rated operating capacity 1,750 lbs.", details: "This powerful skid steer offers exceptional lift capacity and maneuverability. Ideal for demolition, grading, and material handling. High-flow hydraulics standard.", placeholder: "Skid Steer", imageURL: "skid_steer.png" },
+            { id: 6, name: "Trench Digger (Walk-Behind)", category: "Earthmoving", price: 210.00, description: "Creates clean trenches quickly for utilities and irrigation lines. Adjustable depth up to 36 inches.", details: "A self-propelled trenching machine designed for speed and precision. Ideal for installing irrigation lines, electrical conduit, or plumbing.", placeholder: "Digger", imageURL: "trench copy.png" },
             
-            { id: 4, name: "Concrete Mixer (9cu ft)", category: "Lawn&Tools", price: 150.00, description: "Professional grade, heavy-duty mixer for high volume jobs.", details: "A portable yet robust mixer capable of handling large concrete batches. Easily towed to any job site. Perfect for sidewalks, patios, and small foundations.", placeholder: "Mixer", imageURL: "Images/Concrete_Mixer.png" },
-            { id: 5, name: "Plate Compactor", category: "Lawn&Tools", price: 90.00, description: "Ideal for granular soils, asphalt patching, and driveway preparation.", details: "Heavy-duty plate compactor offering 5,500 lbs of compaction force. Essential for foundational stability in trenches and small areas.", placeholder: "Compactor", imageURL: "Images/Plate_Compactor.png" },
+            { id: 4, name: "Concrete Mixer (9cu ft)", category: "Lawn&Tools", price: 150.00, description: "Professional grade, heavy-duty mixer for high volume jobs.", details: "A portable yet robust mixer capable of handling large concrete batches. Easily towed to any job site. Perfect for sidewalks, patios, and small foundations.", placeholder: "Mixer", imageURL: "Concrete_Mixer.png" },
+            { id: 5, name: "Plate Compactor", category: "Lawn&Tools", price: 90.00, description: "Ideal for granular soils, asphalt patching, and driveway preparation.", details: "Heavy-duty plate compactor offering 5,500 lbs of compaction force. Essential for foundational stability in trenches and small areas.", placeholder: "Compactor", imageURL: "Plate_Compactor.png" },
             
-            { id: 12, name: "Dump Trailer (10k GVWR)", category: "Trailer", price: 120.00, description: "Hydraulic dump trailer with a 10,000 lb gross vehicle weight rating.", details: "Perfect for hauling and dumping debris, gravel, or soil. Features easy-to-use hydraulic lift and a secure locking mechanism.", placeholder: "Dump Trailer", imageURL: "Images/dump_trailer.png" },
+            { id: 12, name: "Dump Trailer (10k GVWR)", category: "Trailer", price: 120.00, description: "Hydraulic dump trailer with a 10,000 lb gross vehicle weight rating.", details: "Perfect for hauling and dumping debris, gravel, or soil. Features easy-to-use hydraulic lift and a secure locking mechanism.", placeholder: "Dump Trailer", imageURL: "dump_trailer.png" },
             
-            { id: 13, name: "Hydraulic Breaker", category: "Attachments", price: 95.00, description: "High-impact breaker for concrete and rock demolition. Fits all our skid steers.", details: "Quickly break up concrete slabs, pavement, and rock. A necessary tool for interior and exterior demolition projects.", placeholder: "Breaker", imageURL: "Images/Breaker.png" },
+            { id: 13, name: "Hydraulic Breaker", category: "Attachments", price: 95.00, description: "High-impact breaker for concrete and rock demolition. Fits all our skid steers.", details: "Quickly break up concrete slabs, pavement, and rock. A necessary tool for interior and exterior demolition projects.", placeholder: "Breaker", imageURL: "Breaker.png" },
         ];
         
         // Define the four main categories for navigation
