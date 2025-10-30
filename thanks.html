@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Elite Equipment Rentals</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script>
+        // Tailwind Config for custom colors (copied from your main file)
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'elite-orange': '#FF6600',
+                        'elite-orange-dark': '#CC5500',
+                    }
+                }
+            }
+        }
+        
+        // Function to render Lucide icons
+        window.onload = function() {
+            if (typeof lucide !== 'undefined' && lucide.createIcons) {
+                lucide.createIcons();
+            }
+        };
+    </script>
+
+    <style>
+        /* Ensures the content is centered vertically on the screen */
+        .min-h-screen-full {
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans antialiased">
+
+    <main class="min-h-screen-full flex items-center justify-center p-4">
+        
+        <div class="max-w-xl mx-auto text-center bg-white p-10 md:p-12 rounded-xl shadow-2xl border-t-8 border-elite-orange">
+            
+            <i data-lucide="check-circle" class="w-16 h-16 text-elite-orange mx-auto mb-6"></i>
+            
+            <h1 class="text-4xl font-extrabold text-gray-900 mb-4">Inquiry Submitted!</h1>
+            
+            <p class="text-xl text-gray-700 mb-6">
+                Thank you for your interest in **Elite Equipment Rentals**.
+            </p>
+            
+            <p class="text-gray-600 mb-8 leading-relaxed">
+                A member of our team has received your rental request and will contact you via email or phone within **1 business hour** to provide a quote and confirm availability.
+            </p>
+            
+            <div class="space-y-4">
+                <a href="test.html#/" class="inline-flex items-center px-6 py-3 border border-transparent text-lg font-bold rounded-lg shadow-lg text-white bg-elite-orange hover:bg-elite-orange-dark transition duration-150 transform hover:scale-[1.02]">
+                    <i data-lucide="home" class="w-5 h-5 mr-2"></i> Return to Homepage
+                </a>
+
+                <p class="text-sm text-gray-500 pt-4">
+                    Need immediate assistance? Call us at <a href="tel:1-800-ELITE-EQ" class="font-medium text-elite-orange hover:underline">1-800-ELITE-EQ</a>.
+                </p>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+</html>
